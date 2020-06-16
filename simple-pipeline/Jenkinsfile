@@ -33,7 +33,7 @@ stage('stage 2'){
 stage('manual approval'){
 steps{
  timeout(time:60, unit: 'MINUTES'){
-	inpute message: "Move to stage 3?"
+	input message: "Move to stage 3?"
 }
 }
 }
